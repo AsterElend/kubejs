@@ -1,0 +1,15 @@
+{
+  "type": "hexcasting:brainsweep",
+  "blockIn": {
+    "type": "block",
+    "block": "hexcasting:impetus/empty"
+  },
+  "cost": 100000,
+  "entityIn": {
+    "type": "entity_type",
+    "entityType": "minecraft:creeper"
+  },
+  "result": {
+    "name": "hexcasting:impetus/redstone"
+  }
+}
