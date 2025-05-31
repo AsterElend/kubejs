@@ -43,4 +43,20 @@ ServerEvents.recipes(rune => {
         ]
 
     })
+    rune.custom({
+         type: 'malum:spirit_infusion',
+        extra_items: [
+            {count: 2, tag: 'c:mushrooms' },
+            {count: 1, item: 'minecraft:water_bucket'},
+            {count: 4, item: 'minecraft:amethyst_shard' },
+            {count: 4, item: 'minecraft:sugar'}
+        ],
+        input: { count: 1, tag: 'kubejs:scrolls'},
+        output: {count: 1, item:'kubejs:batterycandy'},
+        spirits: [
+            {type: 'arcane', count: 2},
+            {type: 'aqueous', count: 3}
+        ]
+
+    })
 })
