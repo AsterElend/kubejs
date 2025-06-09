@@ -30,7 +30,7 @@ StartupEvents.registry('item', event => {
 
   caramelize('spacecandy',  'hexcasting perWorldPatterns give hexcasting:teleport/great')
 
-  caramelize('guncandy',  'hexcasting perWorldPatterns give hex_machina:expose_mind')
+
   
   caramelize('rendercandy',  'hexcasting perWorldPatterns give oneironaut:applymindrender')
 

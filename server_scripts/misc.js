@@ -66,4 +66,21 @@ ServerEvents.recipes(rune => {
         results: [{ item: 'minecraft:blaze_powder'}]
     })
 
+    rune.remove({
+        output: 'minecraft:charcoal', mod: 'malum'
+    })
+
+    rune.replaceOutput(
+        {output: 'create:dough'},
+        'create:dough',
+        'farmersdelight:wheat_dough'
+    )
+
+    rune.shapeless(
+        Item.of('minecraft:black_dye', 1),
+        [
+            'minecraft:charcoal'
+        ]
+    )
+
 })
