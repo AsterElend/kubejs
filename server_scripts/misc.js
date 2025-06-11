@@ -1,18 +1,11 @@
 ServerEvents.recipes(rune => {
-    rune.custom({
-        type: 'botania:runic_altar',
-        ingredients: [
-            {
-                tag: 'botania:runes'
-            },
-            {tag: 'minecraft:saplings'}
-        ],
-        mana: 2000,
-        output: {
-            count: 1,
-            item: 'malum:runewood_sapling'
-        }
-    })
+    
+rune.custom({
+    type: 'create:item_application',
+    ingredients: [{ tag: 'minecraft:saplings'}, {tag: 'botania:runes'}],
+    results: [{item: 'malum:runewood_sapling'}]
+})
+
 
    
 

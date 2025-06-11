@@ -7,6 +7,16 @@ StartupEvents.registry('block', event => {
   .requiresTool(true)
   .tagBlock('minecraft:mineable/pickaxe')
   
-  
+  event.create('charcoal_block')
+  .hardness(1.5)
+  .resistance(6)
+  .soundType('stone')
+  .requiresTool(true)
+  .tagBlock('minecraft:mineable/pickaxe')
+  .item(item => {
+    item.burnTime(16000)
+  } ).displayName('Block Of Charcoal')
+
+
 })
 

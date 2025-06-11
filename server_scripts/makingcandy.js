@@ -59,4 +59,19 @@ ServerEvents.recipes(rune => {
         ]
 
     })
+
+    rune.custom({
+        type: 'malum:spirit_infusion',
+        extra_items: [
+            {count: 2, tag: 'minecraft:phantom_membrane' },
+            {count: 4, item: 'minecraft:amethyst_shard' },
+            {count: 4, item: 'minecraft:sugar'}
+        ],
+        input: { count: 1, tag: 'kubejs:scrolls'},
+        output: {count: 1, item:'kubejs:wingcandy'},
+        spirits: [
+            {type: 'eldritch', count: 1},
+            {type: 'aerial', count: 4}
+        ]
+    })
 })
