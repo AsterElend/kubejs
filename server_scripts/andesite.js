@@ -9,8 +9,26 @@ ServerEvents.recipes(spoons =>
         ],
         {
             A: 'kubejs:lavenstone',
-            B: 'hexcasting:amethyst_dust_block'
+            B: 'hexcasting:amethyst_dust'
         }
+    )
+
+    spoons.shaped(
+        Item.of('kubejs:charcoal_block',1 ),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A: 'minecraft:charcoal'
+        }
+    )
+    spoons.shapeless(
+        Item.of('minecraft:charcoal', 9),
+        [
+            'kubejs:charcoal_block'
+        ]
     )
 }
 )

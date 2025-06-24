@@ -1,0 +1,15 @@
+{
+  "type": "hexcasting:brainsweep",
+  "blockIn": {
+    "type": "block",
+    "block": "minecraft:stone"
+  },
+  "cost": 100000,
+  "entityIn": {
+    "type": "entity_type",
+    "entityType": "minecraft:creeper"
+  },
+  "result": {
+    "name": "create_new_age:thorium_ore"
+  }
+}

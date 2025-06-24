@@ -1,0 +1,81 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "hexcasting:amethyst_dust"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "item": "hexcasting:cypher"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_cypher"
+        },
+        [
+          {
+            "tag": "c:copper_nuggets"
+          }
+         
+        ]
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_cypher"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_cypher"
+        },
+      {
+        "amount": 1000,
+        "fluid": "kubejs:hex_gloop",
+        "nbt": {}
+      }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_cypher"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_cypher"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_cypher"
+        }
+      ]
+    },
+    {
+        "type": "create_new_age:energising",
+        "energy_needed": 1000,
+        "ingredients": [
+            {
+                "item": "kubejs:incomplete_cypher"
+            }
+        ],
+        "results": [
+            {
+                "item": "kubejs:incomplete_cypher"
+            }
+        ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_cypher"
+  }
+}

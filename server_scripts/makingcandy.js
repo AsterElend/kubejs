@@ -63,7 +63,7 @@ ServerEvents.recipes(rune => {
     rune.custom({
         type: 'malum:spirit_infusion',
         extra_items: [
-            {count: 2, tag: 'minecraft:phantom_membrane' },
+            {count: 2, item: 'minecraft:phantom_membrane'},
             {count: 4, item: 'minecraft:amethyst_shard' },
             {count: 4, item: 'minecraft:sugar'}
         ],

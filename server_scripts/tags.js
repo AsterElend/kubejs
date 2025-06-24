@@ -10,7 +10,6 @@ azure.add('kubejs:scrolls', 'hexcasting:scroll_medium')
 azure.add('c:seeds', 'supplementaries:flax_seeds')
 
 
-
 }
 
 

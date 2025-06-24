@@ -12,6 +12,18 @@ ServerEvents.recipes(gloop =>{
         results: [{item: 'kubejs:calculating_pie'}]
 
     })
+    gloop.custom({
+        type: 'create:filling',
+        ingredients:[
+        {item: 'minecraft:apple'},
+        {
+            'amount':8100,
+            fluid: 'kubejs:hex_gloop',
+            nbt: {}
+        }
+    ],
+    results: [{item: 'oneironaut:monkfruit'}]
+    })
 
     gloop.custom({
         type: 'create:mixing',

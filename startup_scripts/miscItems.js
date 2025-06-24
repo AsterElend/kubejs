@@ -9,7 +9,7 @@ StartupEvents.registry('item', event => {
         .effect('hexcasting:enlarge_grid', 2400, 0, 1)
         
     })
-
+ 
     
 })
 
