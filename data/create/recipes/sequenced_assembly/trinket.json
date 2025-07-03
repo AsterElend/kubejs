@@ -1,12 +1,12 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "hexcasting:amethyst_dust"
+    "item": "hexcasting:amethyst_shard"
   },
   "loops": 4,
   "results": [
     {
-      "item": "hexcasting:cypher"
+      "item": "hexcasting:trinket"
     }
   ],
   "sequence": [
@@ -14,18 +14,18 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "kubejs:incomplete_cypher"
+          "item": "kubejs:incomplete_trinket"
         },
         [
           {
-            "tag": "c:copper_nuggets"
+            "tag": "c:iron_nuggets"
           }
          
         ]
       ],
       "results": [
         {
-          "item": "kubejs:incomplete_cypher"
+          "item": "kubejs:incomplete_trinket"
         }
       ]
     },
@@ -33,17 +33,17 @@
       "type": "create:filling",
       "ingredients": [
         {
-          "item": "kubejs:incomplete_cypher"
+          "item": "kubejs:incomplete_trinket"
         },
       {
-        "amount": 506,
+        "amount": 5062,
         "fluid": "kubejs:hex_gloop",
         "nbt": {}
       }
       ],
       "results": [
         {
-          "item": "kubejs:incomplete_cypher"
+          "item": "kubejs:incomplete_trinket"
         }
       ]
     },
@@ -51,31 +51,31 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "kubejs:incomplete_cypher"
+          "item": "kubejs:incomplete_trinket"
         }
       ],
       "results": [
         {
-          "item": "kubejs:incomplete_cypher"
+          "item": "kubejs:incomplete_trinket"
         }
       ]
     },
     {
         "type": "create_new_age:energising",
-        "energy_needed": 506,
+        "energy_needed": 5062,
         "ingredients": [
             {
-                "item": "kubejs:incomplete_cypher"
+                "item": "kubejs:incomplete_trinket"
             }
         ],
         "results": [
             {
-                "item": "kubejs:incomplete_cypher"
+                "item": "kubejs:incomplete_trinket"
             }
         ]
     }
   ],
   "transitionalItem": {
-    "item": "kubejs:incomplete_cypher"
+    "item": "kubejs:incomplete_trinket"
   }
 }

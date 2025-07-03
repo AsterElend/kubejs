@@ -4,7 +4,7 @@ ServerEvents.recipes(gloop =>{
         ingredients: [
             {item: 'farmersdelight:pie_crust'},
             {
-                "amount": 811,
+                "amount": 810,
                 fluid: 'kubejs:hex_gloop',
                 nbt: {}
             }
