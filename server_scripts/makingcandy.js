@@ -74,4 +74,22 @@ ServerEvents.recipes(rune => {
             {type: 'aerial', count: 4}
         ]
     })
+
+    rune.custom({
+        type: 'malum:spirit_infusion',
+        extra_items: [
+            {count: 1, item: 'botania:mana_pearl'},
+            {count: 1, item: 'create:shadowsteel'},
+            {count: 4, item: 'minecraft:amethyst_shard' },
+            {count: 4, item: 'minecraft:sugar'}
+
+        ],
+        input:  { count: 1, tag: 'kubejs:scrolls'},
+
+         output: {count: 1, item:'kubejs:gatecandy'},
+        spirits: [
+            {type: 'eldritch', count: 2},
+            {type: 'arcane', count: 4}
+        ]
+    })
 })

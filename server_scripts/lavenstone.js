@@ -1,6 +1,6 @@
 ServerEvents.recipes(flamingo => {
     flamingo.shaped(
-        Item.of('kubejs:lavenstone', 3),
+        Item.of('minecraft:andesite', 4),
         [
             'BB ',
             'BB ',
@@ -10,6 +10,14 @@ ServerEvents.recipes(flamingo => {
         {
             B: 'hexcasting:amethyst_dust_block'
         }
+    )
+
+    flamingo.shapeless(
+        Item.of('kubejs:lavenstone', 1),
+        [
+            'minecraft:andesite',
+            'hexcasting:amethyst_dust'
+        ]
     )
     
     console.log("it probably worked")
