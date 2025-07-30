@@ -9,6 +9,7 @@ StartupEvents.registry('item', event => {
         .effect('hexcasting:enlarge_grid', 2400, 0, 1)
         
     })
+    event.create('resonant_spindle').glow(true).maxStackSize(1)
  
     
 })

@@ -2,11 +2,11 @@
   "type": "botania:orechid",
   "input": {
     "type": "block",
-    "block": "minecraft:deepslate"
+    "block": "minecraft:stone"
   },
   "output": {
     "type": "block",
-    "block": "spectrum:deepslate_shimmerstone_ore"
+    "block": "spectrum:shimmerstone_ore"
   },
   "weight": 1000
 }

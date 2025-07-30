@@ -18,4 +18,22 @@ ServerEvents.recipes(why =>{
         ]
 
     })
+
+    why.custom({
+        type: 'malum:spirit_focusing',
+        durabilityCost: 2,
+        input: {item: 'malum:zinc_impetus'},
+        output: {count:3, id: 'malum:zinc_node'},
+        spirits: [
+            {
+                type: 'earthen'
+                ,count: 2
+            },
+            {
+                type: 'infernal',
+                count: 2
+            }
+        ],
+        time: 900
+    })
 })

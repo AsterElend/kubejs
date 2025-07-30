@@ -85,4 +85,12 @@ rune.custom({
         ]
     )
 
+    rune.custom({
+        type: 'create:pressing',
+        ingredients: [
+            {item: 'kubejs:wand_core'}
+        ],
+        results: [{item: 'hexcasting:lens'}]
+    })
+
 })
