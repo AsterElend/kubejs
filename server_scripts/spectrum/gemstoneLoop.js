@@ -3,10 +3,7 @@ ServerEvents.recipes(anyname =>{
     function swap (input, out) {
          anyname.custom({
         type: 'botania:mana_infusion',
-        catalyst:{
-            type: 'block',
-            block: 'botania:alchemy_catalyst'
-        },
+       
         input: {
            item: input
         },
@@ -20,6 +17,9 @@ ServerEvents.recipes(anyname =>{
 swap('minecraft:amethyst_shard', 'spectrum:topaz_shard')
 swap('spectrum:topaz_shard', 'spectrum:citrine_shard')
 swap('spectrum:citrine_shard', 'minecraft:amethyst_shard')
+
+swap('spectrum:amethyst_powder_block', 'minecraft:calcite')
+swap('minecraft:calcite', 'minecraft:smooth_basalt')
 
 
 })

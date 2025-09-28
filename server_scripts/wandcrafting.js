@@ -8,8 +8,8 @@ ServerEvents.recipes(event => {
             ' D '
         ],
         {
-            D: 'hexcasting:amethyst_dust',
-            B: 'hexcasting:amethyst_dust_block'
+            D: 'spectrum:amethyst_powder',
+            B: 'spectrum:amethyst_powder_block'
         }
     )
 

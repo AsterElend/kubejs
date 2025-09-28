@@ -41,6 +41,19 @@ write.custom({
     output: {item: 'minecraft:pink_petals'},
     reagent: {tag: 'botania:seed_apothecary_reagent'}
 })
+write.custom({
+    type: 'botania:petal_apothecary',
+    ingredients: [ 
+        { tag: 'minecraft:leaves'},
+        {tag: 'botania:petals/orange'},
+        {tag: 'botania:petals/white'},
+        {item: 'spectrum:shimmerstone_gem'}
+        
+
+    ],
+    output: {item: 'spectrum:mermaids_gem'},
+    reagent: {tag: 'botania:seed_apothecary_reagent'}
+})
 
 
 

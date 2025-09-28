@@ -8,7 +8,7 @@ ServerEvents.recipes(flamingo => {
             
         ],
         {
-            B: 'hexcasting:amethyst_dust_block'
+            B: 'spectrum:amethyst_powder_block'
         }
     )
 
@@ -16,7 +16,7 @@ ServerEvents.recipes(flamingo => {
         Item.of('kubejs:lavenstone', 1),
         [
             'minecraft:andesite',
-            'hexcasting:amethyst_dust'
+            'spectrum:amethyst_powder'
         ]
     )
     
@@ -35,5 +35,20 @@ ServerEvents.recipes(flamingo => {
         }
     )
     flamingo.smelting('minecraft:stone', 'kubejs:lavenstone')
+
+    flamingo.custom({
+        type: 'create:mixing',
+        ingredients: [
+            {item: 'botania:cobble_rod'},
+            {item:'minecraft:dirt'}
+        ],
+        results: [
+            {item: 'spectrum:amethyst_powder'},
+            {item:'botania:cobble_rod'},
+            {item:'minecraft:dirt'}
+        ]
+
+    })
+    
 })
 

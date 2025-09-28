@@ -1,3 +1,7 @@
+let $ADmedia = Java.loadClass('at.petrak.hexcasting.api.addldata.ADMediaHolder')
+
+
+
 StartupEvents.registry('item', event => {
     event.create('wand_core').glow(true).displayName('Core')
 
@@ -13,4 +17,3 @@ StartupEvents.registry('item', event => {
  
     
 })
-

@@ -11,15 +11,39 @@ rune.custom({
 
     rune.custom({
         type: 'create:splashing',
-        ingredients: [{ item: 'malum:aerial_spirit'}],
+        ingredients: [{ item: 'malum:arcane_spirit'}],
         results: [{item: 'malum:aqueous_spirit'}]
     })
+    rune.custom({
+        type: 'minecraft:smoking',
+       category: 'nevermind',
+       cookingtime: 100,
+       experience: 0.0,
+       ingredient: {item:'malum:aqueous_spirit'},
+       result: 'malum:aerial_spirit'
+    })
+
+    rune.custom({
+        type: 'patchouli:shapeless_book_recipe',
+        ingredients: [
+            {
+                item: 'spectrum:amethyst_powder'
+            },
+            {
+                item: 'minecraft:book'
+            }
+        ],
+        book: 'hexcasting:thehexbook'
+        
+})
+
+
 
 
      rune.custom({
         type: 'botania:mana_infusion',
         input: {
-           item:  'hexcasting:amethyst_dust'
+           tag:  'spectrum:gemstone_powders'
         },
         mana: 500,
         output: {
@@ -37,6 +61,17 @@ rune.custom({
             item: 'minecraft:bamboo'
         }
     })
+ rune.custom({
+        type: 'botania:mana_infusion',
+        input: {
+           item:  'minecraft:bamboo'
+        },
+        mana: 1000,
+        output: {
+            item: 'minecraft:kelp'
+        }
+    })
+
     rune.custom({
         type: 'botania:mana_infusion',
         catalyst:{
@@ -91,6 +126,18 @@ rune.custom({
             {item: 'kubejs:wand_core'}
         ],
         results: [{item: 'hexcasting:lens'}]
+    })
+
+
+      rune.custom({
+        type: 'malum:spirit_infusion',
+       extra_items: [],
+        input: { count: 1, item: 'spectrum:amethyst_powder'},
+        output: {count: 1, item:'spectrum:shimmerstone_gem'},
+        spirits: [
+            {type: 'infernal', count: 1}
+        ]
+
     })
 
 })

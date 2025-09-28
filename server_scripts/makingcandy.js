@@ -36,7 +36,7 @@ ServerEvents.recipes(rune => {
     rune.custom({
         type: 'malum:spirit_infusion',
        extra_items: [],
-        input: { count: 1, item: 'hexcasting:amethyst_dust'},
+        input: { count: 1, item: 'spectrum:amethyst_powder'},
         output: {count: 1, item:'malum:hex_ash'},
         spirits: [
             {type: 'arcane', count: 1}
@@ -79,7 +79,7 @@ ServerEvents.recipes(rune => {
         type: 'malum:spirit_infusion',
         extra_items: [
             {count: 1, item: 'botania:mana_pearl'},
-            {count: 1, item: 'create:shadowsteel'},
+            {count: 1, item: 'create:shadow_steel'},
             {count: 4, item: 'minecraft:amethyst_shard' },
             {count: 4, item: 'minecraft:sugar'}
 

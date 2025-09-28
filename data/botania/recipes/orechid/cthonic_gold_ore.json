@@ -2,11 +2,11 @@
   "type": "botania:orechid",
   "input": {
     "type": "block",
-    "block": "minecraft:stone"
+    "block": "minecraft:deepslate"
   },
   "output": {
     "type": "block",
-    "block": "spectrum:shimmerstone_ore"
+    "block": "malum:cthonic_gold_ore"
   },
-  "weight": 3000
+  "weight": 999
 }

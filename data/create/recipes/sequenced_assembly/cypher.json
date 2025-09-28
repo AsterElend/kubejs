@@ -1,7 +1,7 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "hexcasting:amethyst_dust"
+    "item": "spectrum:amethyst_powder"
   },
   "loops": 4,
   "results": [

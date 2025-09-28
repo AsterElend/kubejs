@@ -6,7 +6,7 @@
   },
   "output": {
     "type": "block",
-    "block": "spectrum:deepslate_shimmerstone_ore"
+    "block": "malum:natural_quartz_ore"
   },
   "weight": 1000
 }
