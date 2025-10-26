@@ -119,6 +119,7 @@ rune.custom({
             'minecraft:charcoal'
         ]
     )
+    rune.shapeless(Item.of('hexcasting:amethyst_dust', 1), ['spectrum:amethyst_powder'])
 
     rune.custom({
         type: 'create:pressing',

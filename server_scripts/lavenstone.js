@@ -1,6 +1,6 @@
 ServerEvents.recipes(flamingo => {
     flamingo.shaped(
-        Item.of('minecraft:andesite', 4),
+        Item.of('minecraft:andesite', 1),
         [
             'BB ',
             'BB ',
@@ -8,7 +8,7 @@ ServerEvents.recipes(flamingo => {
             
         ],
         {
-            B: 'spectrum:amethyst_powder_block'
+            B: 'spectrum:amethyst_powder'
         }
     )
 

@@ -21,4 +21,5 @@ ServerEvents.recipes(rune =>{
         'spectrum:amethyst_powder'
     )
     
+    
 })
