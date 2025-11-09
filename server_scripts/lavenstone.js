@@ -11,6 +11,7 @@ ServerEvents.recipes(flamingo => {
             B: 'spectrum:amethyst_powder'
         }
     )
+    flamingo.remove({output: 'hexcasting:amethyst_dust_block'})
 
     flamingo.shapeless(
         Item.of('kubejs:lavenstone', 1),

@@ -1,0 +1,10 @@
+{
+  "type": "hexal:freeze",
+  "blockIn": {
+    "type": "block",
+    "block": "minecraft:calcite"
+  },
+  "result": {
+    "name": "minecraft:smooth_basalt"
+  }
+}

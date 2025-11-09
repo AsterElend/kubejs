@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
         ],
         {
             D: 'spectrum:amethyst_powder',
-            B: 'spectrum:amethyst_powder_block'
+            B: 'kubejs:lavenstone'
         }
     )
 

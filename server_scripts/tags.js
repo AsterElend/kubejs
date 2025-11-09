@@ -10,6 +10,7 @@ azure.add('kubejs:scrolls', 'hexcasting:scroll_medium')
 azure.add('c:seeds', 'supplementaries:flax_seeds')
 azure.add('c:ingots/zinc', 'create:zinc_ingot')
 azure.add('hexcasting:grants_root_advancement', 'spectrum:amethyst_powder')
+azure.add('botania:seed_apothecary_reagents','#minecraft:seeds')
 
 
 

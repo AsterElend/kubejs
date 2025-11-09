@@ -1,0 +1,10 @@
+{
+  "type": "hexal:freeze",
+  "blockIn": {
+    "type": "block",
+    "block": "kubejs:lavenstone"
+  },
+  "result": {
+    "name": "minecraft:calcite"
+  }
+}

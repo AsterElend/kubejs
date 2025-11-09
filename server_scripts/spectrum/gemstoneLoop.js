@@ -18,7 +18,7 @@ swap('minecraft:amethyst_shard', 'spectrum:topaz_shard')
 swap('spectrum:topaz_shard', 'spectrum:citrine_shard')
 swap('spectrum:citrine_shard', 'minecraft:amethyst_shard')
 
-swap('spectrum:amethyst_powder_block', 'minecraft:calcite')
+swap('kubejs:lavenstone', 'minecraft:calcite')
 swap('minecraft:calcite', 'minecraft:smooth_basalt')
 
 
